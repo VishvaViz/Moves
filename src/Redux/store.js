@@ -1,1 +1,0 @@
-let store=createStore(value)
