@@ -4,8 +4,7 @@ import './components/style.css'
 import React from 'react';
 import Nav from './components/Nav';
 import Mymoves from './components/Mymoves';
-import Getquote from './components/Getquote'
-import Myprofile from './components/Myprofile'
+
 function App() {
   return (
     <React.Fragment>
@@ -14,7 +13,8 @@ function App() {
             <Nav/>
         </div>
         <div className='col-10'>
-          <Mymoves/>        
+          <Mymoves/> 
+                 
         </div>
       </div>
       

@@ -79,3 +79,35 @@
 
 //     </React.Fragment>
 //   }
+
+{/* <div className='row'>
+                            <div className='col'>
+                              <p><i className='fa fa-house' style={{color:"#d94717",fontSize:"20px"}}></i>{d.property_size}</p>
+                            </div>
+                            <div className='col'>
+                              <p><i className='fas fa-boxes' style={{color:"#d94717",fontSize:"20px"}}></i>{d.total_items}</p>
+                            </div>
+                            <div className='col'>
+                              <p><i className='fa fa-route' style={{color:"#d94717",fontSize:"20px"}}></i>{d.distance}</p>
+                            </div>
+                            <div className='col-3'>
+                                <p><i className='fa fa-calendar' style={{color:"#d94717",fontSize:"20px"}}></i>{
+                                new Date(d.moving_on).toLocaleDateString([],options)
+                                } at {
+                                  new Date(d.moving_on).toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })
+                                } <i className='fas fa-pencil-alt' style={{fontSize:"13px"}}></i></p>
+                            </div>
+                            <div className='col-1'>
+                              <input type="checkbox" checked={d.move_date_flexible =="1"? "checked":"" } ></input>
+                              <p>is fexiable</p>
+
+                            </div>  
+                            <div className='col-2'>
+                                <button className="btn btn-outline-danger " type="button" data-bs-toggle="collapse" data-bs-target={"#collapseOne"+dindex} aria-expanded="false" aria-controls="collapseExample">
+                                          View more details
+                                </button>
+                            </div>
+                            <div className='col-2'>
+                              <button type="button" className="btn btn-danger">Quoutes Awaiting</button><br/>
+                            </div>
+                          </div> */}

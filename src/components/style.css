@@ -41,9 +41,35 @@
     justify-content: space-between;
 }
 .req{
-    margin-left: 90%;
+    margin-left: 55px;
 }
 .vis{
     display: flex;
     flex-direction: row-reverse;
+}
+
+input[type=checkbox] {
+    accent-color: red;
+  }
+.vis input{
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.arrow{
+    display: flex;
+    flex-direction: row-reverse;
+}
+p{
+    font-size:14px;
+}
+.isflex{
+    display: flex;
+    
+}
+.isflex input{
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+.col{
+ margin-right: 30px;
 }
