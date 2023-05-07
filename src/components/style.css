@@ -25,7 +25,8 @@
 }
 .navbar ul li{
     list-style: none;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     margin: 10px;
     position: relative;
 }
