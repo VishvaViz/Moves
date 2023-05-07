@@ -2,9 +2,7 @@ import React from "react";
 
 function Getquote(){
     return <>
-        <h1>GetquoteComponente</h1>
-        
-
+        <h3>GetquoteComponent</h3>
     </>
 }
 export default Getquote

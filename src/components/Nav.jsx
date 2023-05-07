@@ -2,7 +2,6 @@ import React from "react";
 
 function Nav(){
     return <React.Fragment>
-            {/* <nav > */}
                 <div className="navbar">
                     <ul>
                         <li><a href="./mymoves" ><i className="fa fa-truck-arrow-right"></i>MyMoves</a></li>
@@ -11,7 +10,6 @@ function Nav(){
                         <li><a href="./logout" ><i className="fa fa-arrow-right circle "></i>Logout</a></li>
                     </ul>
                 </div>
-            {/* </nav> */}
     </React.Fragment>
 }
 export default Nav;

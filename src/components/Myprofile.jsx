@@ -1,10 +1,8 @@
 import React from "react";
-// import { defaultMethod } from "react-router-dom/dist/dom";
-
 function Myprofile(){
     return <>
 
-        <h1>Myprofile componenet</h1>
+        <h3>Myprofile componenet</h3>
     </>
 }
 export default Myprofile 
